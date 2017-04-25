@@ -9,7 +9,7 @@ Aim to support the widest range of devices possible (including my Dell XPS 9550)
 Run off Li-Poly or Li-Ion cells or similar sources. This could include car batteries (directly or from cigarette lighter socket), and other sources.
 This is useful when taking devices to the field, or allows a comodity pouch cell battery to act as a bulk battery bank.
 
-Ideally this solution costs less than $100AU (not including charge cable or batteries). This would price it under the Apple 61W and 87W chargers, or the Chromebook Pixel 60W charger after importing to AUS.
+Ideally this solution costs less than $100AU (not including charge cable or batteries). This would price it under or around the Apple 61W and 87W chargers, or the Chromebook Pixel 60W charger after importing to AUS. 
 
 # Requirements
 
@@ -18,11 +18,11 @@ Use XT60 input to allow direct lipo connectors or existing COTS cables with alig
 
 Input must be ESD protected and filtered.
 Input must have reverse polarity protection up to 30V DC.
-Device must indicated that a power source has been applied.
+Device must indicate that a power source has been applied.
 Device should include visual indication that battery is low.
 Device should include battery voltage low-cutoff to prevent over-discharge of source.
 
-Output USB 3.1 C Power Delivery 2.0 Compliant charging power (5, 9, 20V) at up to 3A.
+Output USB 3.1 C Power Delivery 2.0 Compliant charging power (5, 9, 12, 20V) at up to 3A.
 Uses USB Type C socket on the charger, to allow users to find their own cable. No integrated cable tail.
 Compatibility with Dell XPS, Apple Macbook Pro, and other devices.
 Compatibility with USB-C fast charging phones.
@@ -35,9 +35,15 @@ If practical, the device could support a USB 2.0 Type A port as dumb charging or
 Where practical, x/y/z dimensions should be minimised for tight form factor.
 The device's enclosure should not exceed 50C at steadystate for a 'full load'.
 The device should not emit any audible noice (coil whine etc) which can be heard in a quite space (<25dB?)
+The product should aim to meet applicable EMC standards (class 2, non-intentional radiator), use spec analyser at work to validate.
 
 Manufacturing cost of assembled PCB is less than $60USD.
 Manufacturing cost of enclosure less than $20USD.
 Manufacturing cost of packaging (box, manual, etc) less than $5USD.
+Ideally the PCB only requires single sided placement
+Ideally the PCB uses no more than 4 layers
 
 
+# To Do and Misc Thoughts
+
+Use a wide input range DC-DC regulator
