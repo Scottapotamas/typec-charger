@@ -136,8 +136,8 @@ F 10 "5" V 6760 3950 20  0001 C CNN "Supplier Price Break"
 	1    6425 4100
 	0    1    1    0   
 $EndComp
-Text Notes 6025 3825 0    60   ~ 0
-Advertise 5/12/20V support\nSelect 65W limit (3A) as no \ncable identification can occur.
+Text Notes 6050 3650 0    60   ~ 0
+Advertise 5/12/20V support.\n\nSelect 65W limit (3A) default as no \ncable identification can occur.\nAllow change to 5A with switch or jumper\nfor those with good quality cables.
 Text GLabel 14600 4100 2    60   Input ~ 0
 VBUS
 $Comp
@@ -451,48 +451,48 @@ $EndComp
 $Comp
 L 1M_1005M R?
 U 1 1 58FFBBAA
-P 2125 5025
-F 0 "R?" H 2198 4910 50  0000 L CNN
-F 1 "1M_1005M" H 2198 4830 35  0000 L CNN
-F 2 "Applidyne_Resistor:RESC1005X40N" V 2235 4875 20  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2111203.pdf" V 2260 4875 20  0001 C CNN
-F 4 "VISHAY" V 2310 4875 20  0001 C CNN "manf"
-F 5 "CRCW04021M00FKED" V 2335 4875 20  0001 C CNN "manf#"
-F 6 "Element14" V 2360 4875 20  0001 C CNN "Supplier"
-F 7 "1469667" V 2385 4875 20  0001 C CNN "Supplier Part No"
-F 8 "http://au.element14.com/vishay/crcw04021m00fked/res-thick-film-1m-1-0-063w-0402/dp/1469667" V 2410 4875 20  0001 C CNN "Supplier URL"
-F 9 "0.099" V 2435 4875 20  0001 C CNN "Supplier Price"
-F 10 "10" V 2460 4875 20  0001 C CNN "Supplier Price Break"
-	1    2125 5025
+P 2100 5000
+F 0 "R?" H 2173 4885 50  0000 L CNN
+F 1 "1M_1005M" H 2173 4805 35  0000 L CNN
+F 2 "Applidyne_Resistor:RESC1005X40N" V 2210 4850 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2111203.pdf" V 2235 4850 20  0001 C CNN
+F 4 "VISHAY" V 2285 4850 20  0001 C CNN "manf"
+F 5 "CRCW04021M00FKED" V 2310 4850 20  0001 C CNN "manf#"
+F 6 "Element14" V 2335 4850 20  0001 C CNN "Supplier"
+F 7 "1469667" V 2360 4850 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/vishay/crcw04021m00fked/res-thick-film-1m-1-0-063w-0402/dp/1469667" V 2385 4850 20  0001 C CNN "Supplier URL"
+F 9 "0.099" V 2410 4850 20  0001 C CNN "Supplier Price"
+F 10 "10" V 2435 4850 20  0001 C CNN "Supplier Price Break"
+	1    2100 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L 680K_1005M R?
 U 1 1 58FFC680
-P 2125 5525
-F 0 "R?" H 2198 5410 50  0000 L CNN
-F 1 "680K_1005M" H 2198 5330 35  0000 L CNN
-F 2 "Applidyne_Resistor:RESC1005X40N" V 2235 5375 20  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1911175.pdf" V 2260 5375 20  0001 C CNN
-F 4 "PANASONIC" V 2310 5375 20  0001 C CNN "manf"
-F 5 "ERJ2RKF6803X" V 2335 5375 20  0001 C CNN "manf#"
-F 6 "Element14" V 2360 5375 20  0001 C CNN "Supplier"
-F 7 "2302935" V 2385 5375 20  0001 C CNN "Supplier Part No"
-F 8 "http://au.element14.com/panasonic-electronic-components/erj2rkf6803x/res-thick-film-680k-1-0-1w-0402/dp/2302935" V 2410 5375 20  0001 C CNN "Supplier URL"
-F 9 "0.016" V 2435 5375 20  0001 C CNN "Supplier Price"
-F 10 "5" V 2460 5375 20  0001 C CNN "Supplier Price Break"
-	1    2125 5525
+P 2100 5500
+F 0 "R?" H 2173 5385 50  0000 L CNN
+F 1 "680K_1005M" H 2173 5305 35  0000 L CNN
+F 2 "Applidyne_Resistor:RESC1005X40N" V 2210 5350 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1911175.pdf" V 2235 5350 20  0001 C CNN
+F 4 "PANASONIC" V 2285 5350 20  0001 C CNN "manf"
+F 5 "ERJ2RKF6803X" V 2310 5350 20  0001 C CNN "manf#"
+F 6 "Element14" V 2335 5350 20  0001 C CNN "Supplier"
+F 7 "2302935" V 2360 5350 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/panasonic-electronic-components/erj2rkf6803x/res-thick-film-680k-1-0-1w-0402/dp/2302935" V 2385 5350 20  0001 C CNN "Supplier URL"
+F 9 "0.016" V 2410 5350 20  0001 C CNN "Supplier Price"
+F 10 "5" V 2435 5350 20  0001 C CNN "Supplier Price Break"
+	1    2100 5500
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 58FFC8EC
-P 2125 6025
-F 0 "#PWR?" H 2125 5775 50  0001 C CNN
-F 1 "GND" H 2130 5852 50  0000 C CNN
-F 2 "" H 2125 6025 60  0000 C CNN
-F 3 "" H 2125 6025 60  0000 C CNN
-	1    2125 6025
+P 2100 6000
+F 0 "#PWR?" H 2100 5750 50  0001 C CNN
+F 1 "GND" H 2105 5827 50  0000 C CNN
+F 2 "" H 2100 6000 60  0000 C CNN
+F 3 "" H 2100 6000 60  0000 C CNN
+	1    2100 6000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -595,8 +595,8 @@ Over Current Sense
 Text Notes 11500 5225 0    60   ~ 0
 LPF to reduce\nSMPS ripple OCP\ntrigger events
 Text Notes 12675 5275 0    60   ~ 0
-Discharge resistor for\nconnection stop bleeder.
-Text Notes 14075 4700 0    60   ~ 0
+Discharge resistor for\nconnection cut bleeder.
+Text Notes 14050 4700 0    60   ~ 0
 Protect against ESD from\nconnected cable
 Text Notes 8750 3725 0    60   ~ 0
 Back to Back switch to block PSU capacitance from\nlegacy USB devices before negotiation
@@ -609,7 +609,11 @@ CTRL2
 Wire Wire Line
 	5900 5900 5450 5900
 Wire Wire Line
-	5900 5700 5900 6250
+	5900 5700 5900 5800
+Wire Wire Line
+	5900 5800 5900 5900
+Wire Wire Line
+	5900 5900 5900 6250
 Wire Wire Line
 	5450 5700 5900 5700
 Connection ~ 5900 5900
@@ -629,7 +633,17 @@ Wire Wire Line
 Wire Wire Line
 	6125 4100 5450 4100
 Wire Wire Line
-	11900 4100 14600 4100
+	11900 4100 12200 4100
+Wire Wire Line
+	12200 4100 12525 4100
+Wire Wire Line
+	12525 4100 13050 4100
+Wire Wire Line
+	13050 4100 13750 4100
+Wire Wire Line
+	13750 4100 14150 4100
+Wire Wire Line
+	14150 4100 14600 4100
 Wire Wire Line
 	13750 4225 13750 4100
 Connection ~ 13750 4100
@@ -693,35 +707,45 @@ Wire Wire Line
 Wire Wire Line
 	9450 4400 9450 4600
 Wire Wire Line
-	9450 4900 9450 5175
+	9450 4900 9450 5050
+Wire Wire Line
+	9450 5050 9450 5175
 Wire Wire Line
 	9450 5475 9450 5600
 Wire Wire Line
-	2125 5325 2125 5525
+	2100 5300 2100 5400
 Wire Wire Line
-	2125 5825 2125 6025
+	2100 5400 2100 5500
 Wire Wire Line
-	2125 5025 2125 4925
+	2100 5800 2100 6000
+Wire Wire Line
+	2100 5000 2100 4950
 Wire Wire Line
 	3650 4800 3050 4800
 Wire Wire Line
-	3050 4800 3050 5425
-Connection ~ 2125 5425
+	3050 4800 3050 5400
+Connection ~ 2100 5400
 Wire Wire Line
 	12525 4525 12525 5050
 Wire Wire Line
 	10450 4600 10450 4400
 Wire Wire Line
-	10450 4900 10450 5450
+	10450 4900 10450 5050
+Wire Wire Line
+	10450 5050 10450 5450
 Wire Wire Line
 	10450 5050 9450 5050
 Wire Wire Line
-	9600 4100 10300 4100
+	9600 4100 10150 4100
+Wire Wire Line
+	10150 4100 10300 4100
 Wire Wire Line
 	10150 4100 10150 5650
 Connection ~ 10150 4100
 Wire Wire Line
-	8550 4100 9200 4100
+	8550 4100 9000 4100
+Wire Wire Line
+	9000 4100 9200 4100
 Wire Wire Line
 	9450 5800 9450 5900
 Connection ~ 9450 5050
@@ -737,7 +761,9 @@ Wire Wire Line
 Wire Wire Line
 	5750 4800 5450 4800
 Wire Wire Line
-	11375 4100 11375 4600
+	11375 4100 11375 4475
+Wire Wire Line
+	11375 4475 11375 4600
 Connection ~ 11375 4100
 Wire Wire Line
 	11650 4475 11375 4475
@@ -748,7 +774,9 @@ Wire Wire Line
 	12200 4475 12200 4100
 Connection ~ 12200 4100
 Wire Wire Line
-	10700 4100 11600 4100
+	10700 4100 11375 4100
+Wire Wire Line
+	11375 4100 11600 4100
 Wire Wire Line
 	11375 5050 11375 4900
 Wire Wire Line
@@ -756,7 +784,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 5300 3475 5300
 Wire Wire Line
-	3050 5425 2125 5425
+	3050 5400 2100 5400
 Wire Wire Line
 	3650 5500 3300 5500
 Wire Wire Line
@@ -774,4 +802,42 @@ Wire Wire Line
 Connection ~ 9000 4100
 Text GLabel 8550 4100 0    60   Input ~ 0
 VARIABLE_DC
+Text Label 2100 4950 0    60   ~ 0
+VPWR
+Text Notes 1450 6550 0    60   ~ 0
+~GD~ is used for soft start which\nhelps protect against USB VBUS shorts
+Wire Wire Line
+	3650 4400 3100 4400
+Wire Wire Line
+	3100 4400 3100 4600
+Wire Wire Line
+	3100 4600 3100 4700
+Wire Wire Line
+	3100 4600 3650 4600
+$Comp
+L GND #PWR?
+U 1 1 590768B5
+P 2800 5000
+F 0 "#PWR?" H 2800 4750 50  0001 C CNN
+F 1 "GND" V 2805 4872 50  0000 R CNN
+F 2 "" H 2800 5000 60  0000 C CNN
+F 3 "" H 2800 5000 60  0000 C CNN
+	1    2800 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3100 4700 2950 4700
+Wire Wire Line
+	2950 4700 2950 5000
+Wire Wire Line
+	2950 5000 2800 5000
+Connection ~ 3100 4600
+Text Notes 3250 7000 0    60   ~ 0
+VDD pin supply 3V to 5.5V. If unused connect to ground.\nVCONN supply is 4.65V to 5.5V. If unused connect to ground.\nVPWR supply 0V to 25V. Draws 2mA typical, 10uA in sleep.
+Text Notes 5850 1250 0    197  ~ 39
+USB 3.1 Power Delivery 2.0 Control
+Text Notes 6700 1900 0    60   ~ 0
+Provides integrated signalling and negotiation support for PD2.0.\nControls power supply voltage based on device request.\nMonitors current and voltage, along with slew rates, and cuts if out of spec.\nProvides outputs for status pins.
+Text Notes 3400 6300 0    60   ~ 0
+NC pins to gnd according to pinout table,\nexample schematic shows NC
 $EndSCHEMATC
