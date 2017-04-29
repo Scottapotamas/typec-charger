@@ -41,7 +41,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 5
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
@@ -51,32 +51,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 2825 4475 2400 2400
-U 59043016
-F0 "Power Supply" 60
-F1 "PowerSupply.sch" 60
-$EndSheet
-$Sheet
-S 5525 4475 2400 2400
-U 59043113
-F0 "USBC Controller" 60
-F1 "PD Controller.sch" 60
-$EndSheet
-$Sheet
-S 8250 4475 2400 2400
-U 59043148
-F0 "Connectors" 60
-F1 "Connector.sch" 60
-$EndSheet
-$Sheet
-S 11025 4475 2400 2400
-U 59045E1D
-F0 "Status Lights and Input Monitoring" 60
-F1 "Status Light.sch" 60
-$EndSheet
-Text Notes 6325 1625 0    197  ~ 39
-USB 3.1 Type C DC Charger
-Text Notes 6525 2900 0    60   ~ 0
-Takes 8-30V DC input commonly found in cars, caravans, portable power sources\nand RC style lipos, and allows charging of USB PD 2.0 enabled devices such as\nphones or laptops.\n\nAlso provides fallback to USB2.0 devices using a Type C plug (some phones). \nMonitors input source voltage and provides visual indication of power quality.
+Text Notes 4925 5100 0    60   ~ 0
+Input battery voltage monitoring
+Text Notes 10550 5050 0    60   ~ 0
+Indication LED
+Text Notes 8125 5100 0    60   ~ 0
+LED control
 $EndSCHEMATC
