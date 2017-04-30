@@ -14,7 +14,7 @@ Ideally this solution costs less than $100AU (not including charge cable or batt
 # Requirements
 
 Accept wide input range sources, 10V to 26V operating input (3S to 6S lithium, includes 12V and 24V automotive).
-Use XT60 input to allow direct lipo connectors or existing COTS cables with aligators etc.
+Use XT60? input to allow direct lipo connectors or existing COTS cables with aligators etc.
 
 Input must be ESD protected and filtered.
 Input must have reverse polarity protection up to 30V DC.
@@ -22,7 +22,7 @@ Device must indicate that a power source has been applied.
 Device should include visual indication that battery is low.
 Device should include battery voltage low-cutoff to prevent over-discharge of source.
 
-Output USB 3.1 C Power Delivery 2.0 Compliant charging power (5, 9, 12, 20V) at up to 3A.
+Output USB 3.1 C Power Delivery 2.0 Compliant charging power (5, 9, 12, 20V) at up to 3A. Consider 5A as optional expansion?
 Uses USB Type C socket on the charger, to allow users to find their own cable. No integrated cable tail.
 Compatibility with Dell XPS, Apple Macbook Pro, and other devices.
 Compatibility with USB-C fast charging phones.
@@ -46,4 +46,8 @@ Ideally the PCB uses no more than 4 layers
 
 # To Do and Misc Thoughts
 
-Use a wide input range DC-DC regulator
+- Use a wide input range DC-DC regulator
+- Test USB PD with XPS15 using eval board.
+- Consider enclosures 
+	- https://www.aliexpress.com/store/product/4-pcs-electronics-aluminum-enclosure-boxes-13-60-50mm-2015-aluminum-powder-coating-project-box-aluminum/1006252_32312473247.html?spm=2114.12010612.0.0.7DTtvx
+	- https://www.aliexpress.com/item/1-piece-szomk-aluminum-project-box-100-60-13mm-enclosures-for-electronics-electronic-2014-new-aluminum/32241037210.html
