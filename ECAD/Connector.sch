@@ -122,42 +122,6 @@ $EndComp
 Text Notes 9500 4450 0    60   ~ 0
 Type C Socket. Supports PD2.0.\nProvides backwards compatibility with USB2.0
 $Comp
-L 330PF_X7R_1608M C27
-U 1 1 58FF331C
-P 9425 6325
-F 0 "C27" H 9348 6190 50  0000 R CNN
-F 1 "330PF_X7R_1608M" H 9348 6270 35  0000 R CNN
-F 2 "Applidyne_Capacitor:CAPC1608X90L" V 9540 6225 20  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2068140.pdf" V 9565 6225 20  0001 C CNN
-F 4 "AVX" V 9615 6225 20  0001 C CNN "manf"
-F 5 "06035A331JAT2A" V 9640 6225 20  0001 C CNN "manf#"
-F 6 "Element14" V 9665 6225 20  0001 C CNN "Supplier"
-F 7 "316660" V 9690 6225 20  0001 C CNN "Supplier Part No"
-F 8 "http://au.element14.com/avx/06035a331jat2a/cap-mlcc-c0g-np0-330pf-50v-0603/dp/316660" V 9715 6225 20  0001 C CNN "Supplier URL"
-F 9 "0.21" V 9740 6225 20  0001 C CNN "Supplier Price"
-F 10 "10" V 9765 6225 20  0001 C CNN "Supplier Price Break"
-	1    9425 6325
-	1    0    0    1   
-$EndComp
-$Comp
-L 330PF_X7R_1608M C28
-U 1 1 58FF3645
-P 11525 6325
-F 0 "C28" H 11447 6190 50  0000 R CNN
-F 1 "330PF_X7R_1608M" H 11447 6270 35  0000 R CNN
-F 2 "Applidyne_Capacitor:CAPC1608X90L" V 11640 6225 20  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2068140.pdf" V 11665 6225 20  0001 C CNN
-F 4 "AVX" V 11715 6225 20  0001 C CNN "manf"
-F 5 "06035A331JAT2A" V 11740 6225 20  0001 C CNN "manf#"
-F 6 "Element14" V 11765 6225 20  0001 C CNN "Supplier"
-F 7 "316660" V 11790 6225 20  0001 C CNN "Supplier Part No"
-F 8 "http://au.element14.com/avx/06035a331jat2a/cap-mlcc-c0g-np0-330pf-50v-0603/dp/316660" V 11815 6225 20  0001 C CNN "Supplier URL"
-F 9 "0.21" V 11840 6225 20  0001 C CNN "Supplier Price"
-F 10 "10" V 11865 6225 20  0001 C CNN "Supplier Price Break"
-	1    11525 6325
-	-1   0    0    1   
-$EndComp
-$Comp
 L GND #PWR035
 U 1 1 58FF386F
 P 11525 6825
@@ -564,4 +528,40 @@ Text Notes 3650 7250 0    60   ~ 0
 Soft Start Circuit?
 Text Notes 5700 6550 0    60   ~ 0
 To add:\n\nSoft Start/Transient protection\nReverse polarity\nInput short circuit protection\nESD protection\nEMI filter
+$Comp
+L 330PF_X7R_1005M C27
+U 1 1 59075C86
+P 9425 6125
+F 0 "C27" H 9502 6060 50  0000 L CNN
+F 1 "330PF_X7R_1005M" H 9502 5980 35  0000 L CNN
+F 2 "Applidyne_Capacitor:CAPC1005X60L" V 9540 6025 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1955662.pdf" V 9565 6025 20  0001 C CNN
+F 4 "MURATA" V 9615 6025 20  0001 C CNN "manf"
+F 5 "GRM155R71H331KA01D" V 9640 6025 20  0001 C CNN "manf#"
+F 6 "Element14" V 9665 6025 20  0001 C CNN "Supplier"
+F 7 "2494212" V 9690 6025 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/murata/grm155r71h331ka01d/cap-mlcc-x7r-330pf-50v-0402/dp/2494212" V 9715 6025 20  0001 C CNN "Supplier URL"
+F 9 "0.058" V 9740 6025 20  0001 C CNN "Supplier Price"
+F 10 "100" V 9765 6025 20  0001 C CNN "Supplier Price Break"
+	1    9425 6125
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 330PF_X7R_1005M C28
+U 1 1 59075E83
+P 11525 6125
+F 0 "C28" H 11603 6060 50  0000 L CNN
+F 1 "330PF_X7R_1005M" H 11603 5980 35  0000 L CNN
+F 2 "Applidyne_Capacitor:CAPC1005X60L" V 11640 6025 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1955662.pdf" V 11665 6025 20  0001 C CNN
+F 4 "MURATA" V 11715 6025 20  0001 C CNN "manf"
+F 5 "GRM155R71H331KA01D" V 11740 6025 20  0001 C CNN "manf#"
+F 6 "Element14" V 11765 6025 20  0001 C CNN "Supplier"
+F 7 "2494212" V 11790 6025 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/murata/grm155r71h331ka01d/cap-mlcc-x7r-330pf-50v-0402/dp/2494212" V 11815 6025 20  0001 C CNN "Supplier URL"
+F 9 "0.058" V 11840 6025 20  0001 C CNN "Supplier Price"
+F 10 "100" V 11865 6025 20  0001 C CNN "Supplier Price Break"
+	1    11525 6125
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

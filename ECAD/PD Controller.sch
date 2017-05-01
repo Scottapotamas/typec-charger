@@ -101,24 +101,6 @@ F 3 "" H 5900 6250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 330NF_X7R_1608M C20
-U 1 1 58FF20D3
-P 2600 3700
-F 0 "C20" V 2500 3600 50  0000 C CNN
-F 1 "330NF_X7R_1608M" V 2700 3600 35  0000 C CNN
-F 2 "Applidyne_Capacitor:CAPC1608X90L" V 2715 3600 20  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1796654.pdf" V 2740 3600 20  0001 C CNN
-F 4 "TDK" V 2790 3600 20  0001 C CNN "manf"
-F 5 "C1608X7R1H334K080AC" V 2815 3600 20  0001 C CNN "manf#"
-F 6 "Element14" V 2840 3600 20  0001 C CNN "Supplier"
-F 7 "2346907" V 2865 3600 20  0001 C CNN "Supplier Part No"
-F 8 "http://au.element14.com/tdk/c1608x7r1h334k080ac/cap-mlcc-x7r-330nf-50v-0603/dp/2346907" V 2890 3600 20  0001 C CNN "Supplier URL"
-F 9 "0.15" V 2915 3600 20  0001 C CNN "Supplier Price"
-F 10 "1" V 2940 3600 20  0001 C CNN "Supplier Price Break"
-	1    2600 3700
-	0    1    1    0   
-$EndComp
-$Comp
 L 100K_1005M R18
 U 1 1 58FF24BC
 P 6425 4100
@@ -176,7 +158,7 @@ F 10 "100" H 14200 3450 39  0001 L BNN "Suppier Price Break"
 	1    14150 3950
 	0    1    1    0   
 $EndComp
-Text GLabel 12525 5050 3    60   Input ~ 0
+Text GLabel 12575 5050 3    60   Input ~ 0
 DSCG
 $Comp
 L GND #PWR023
@@ -498,37 +480,37 @@ $EndComp
 $Comp
 L 120R_2012M R24
 U 1 1 59000251
-P 12525 4225
-F 0 "R24" H 12598 4110 50  0000 L CNN
-F 1 "120R_2012M" H 12598 4030 35  0000 L CNN
-F 2 "Applidyne_Resistor:RESC2012X50L" V 12635 4075 20  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2059624.pdf" V 12660 4075 20  0001 C CNN
-F 4 "PANASONIC" V 12710 4075 20  0001 C CNN "manf"
-F 5 "ERJ-P06J121V" V 12735 4075 20  0001 C CNN "manf#"
-F 6 "Element14" V 12760 4075 20  0001 C CNN "Supplier"
-F 7 "2281425" V 12785 4075 20  0001 C CNN "Supplier Part No"
-F 8 "http://au.element14.com/panasonic-electronic-components/erj-p06j121v/res-thick-film-120r-5-0-5w-0805/dp/2281425" V 12810 4075 20  0001 C CNN "Supplier URL"
-F 9 "0.15" V 12835 4075 20  0001 C CNN "Supplier Price"
-F 10 "1" V 12860 4075 20  0001 C CNN "Supplier Price Break"
-	1    12525 4225
+P 12575 4225
+F 0 "R24" H 12648 4110 50  0000 L CNN
+F 1 "120R_2012M" H 12648 4030 35  0000 L CNN
+F 2 "Applidyne_Resistor:RESC2012X50L" V 12685 4075 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2059624.pdf" V 12710 4075 20  0001 C CNN
+F 4 "PANASONIC" V 12760 4075 20  0001 C CNN "manf"
+F 5 "ERJ-P06J121V" V 12785 4075 20  0001 C CNN "manf#"
+F 6 "Element14" V 12810 4075 20  0001 C CNN "Supplier"
+F 7 "2281425" V 12835 4075 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/panasonic-electronic-components/erj-p06j121v/res-thick-film-120r-5-0-5w-0805/dp/2281425" V 12860 4075 20  0001 C CNN "Supplier URL"
+F 9 "0.15" V 12885 4075 20  0001 C CNN "Supplier Price"
+F 10 "1" V 12910 4075 20  0001 C CNN "Supplier Price Break"
+	1    12575 4225
 	1    0    0    -1  
 $EndComp
 $Comp
 L 0.005R_2012M R23
 U 1 1 59000C85
-P 11900 4100
-F 0 "R23" V 11712 3950 50  0000 C CNN
-F 1 "0.005R_2012M" V 11792 3950 35  0000 C CNN
-F 2 "Applidyne_Resistor:RESC2012X50L" V 12010 3950 20  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1960326.pdf" V 12035 3950 20  0001 C CNN
-F 4 "WALSIN" V 12085 3950 20  0001 C CNN "manf"
-F 5 "WW08RR005FTL" V 12110 3950 20  0001 C CNN "manf#"
-F 6 "Element14" V 12135 3950 20  0001 C CNN "Supplier"
-F 7 "2503033" V 12160 3950 20  0001 C CNN "Supplier Part No"
-F 8 "http://au.element14.com/walsin/ww08rr005ftl/resistor-current-sense-0r005-1/dp/2503033" V 12185 3950 20  0001 C CNN "Supplier URL"
-F 9 "0.23" V 12210 3950 20  0001 C CNN "Supplier Price"
-F 10 "1" V 12235 3950 20  0001 C CNN "Supplier Price Break"
-	1    11900 4100
+P 11825 4100
+F 0 "R23" V 11637 3950 50  0000 C CNN
+F 1 "0.005R_2012M" V 11717 3950 35  0000 C CNN
+F 2 "Applidyne_Resistor:RESC2012X50L" V 11935 3950 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1960326.pdf" V 11960 3950 20  0001 C CNN
+F 4 "WALSIN" V 12010 3950 20  0001 C CNN "manf"
+F 5 "WW08RR005FTL" V 12035 3950 20  0001 C CNN "manf#"
+F 6 "Element14" V 12060 3950 20  0001 C CNN "Supplier"
+F 7 "2503033" V 12085 3950 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/walsin/ww08rr005ftl/resistor-current-sense-0r005-1/dp/2503033" V 12110 3950 20  0001 C CNN "Supplier URL"
+F 9 "0.23" V 12135 3950 20  0001 C CNN "Supplier Price"
+F 10 "1" V 12160 3950 20  0001 C CNN "Supplier Price Break"
+	1    11825 4100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -552,27 +534,9 @@ Text GLabel 5750 4500 2    60   Input ~ 0
 GDNS
 Text GLabel 5750 4800 2    60   Input ~ 0
 DSCG
-$Comp
-L 330NF_X7R_1608M C25
-U 1 1 59004AD6
-P 11850 4475
-F 0 "C25" V 11657 4375 50  0000 C CNN
-F 1 "330NF_X7R_1608M" V 11737 4375 35  0000 C CNN
-F 2 "Applidyne_Capacitor:CAPC1608X90L" V 11965 4375 20  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1796654.pdf" V 11990 4375 20  0001 C CNN
-F 4 "TDK" V 12040 4375 20  0001 C CNN "manf"
-F 5 "C1608X7R1H334K080AC" V 12065 4375 20  0001 C CNN "manf#"
-F 6 "Element14" V 12090 4375 20  0001 C CNN "Supplier"
-F 7 "2346907" V 12115 4375 20  0001 C CNN "Supplier Part No"
-F 8 "http://au.element14.com/tdk/c1608x7r1h334k080ac/cap-mlcc-x7r-330nf-50v-0603/dp/2346907" V 12140 4375 20  0001 C CNN "Supplier URL"
-F 9 "0.15" V 12165 4375 20  0001 C CNN "Supplier Price"
-F 10 "1" V 12190 4375 20  0001 C CNN "Supplier Price Break"
-	1    11850 4475
-	0    1    1    0   
-$EndComp
 Text Notes 9225 5975 1    60   ~ 0
 Slew rate control\nto meet USB spec
-Text Notes 11375 3775 0    60   ~ 0
+Text Notes 11300 3800 0    60   ~ 0
 Over Current Sense
 Text Notes 11500 5225 0    60   ~ 0
 LPF to reduce\nSMPS ripple OCP\ntrigger events
@@ -580,7 +544,7 @@ Text Notes 12675 5275 0    60   ~ 0
 Discharge resistor for\nconnection cut bleeder.
 Text Notes 14050 4700 0    60   ~ 0
 Protect against ESD from\nconnected cable
-Text Notes 8750 3725 0    60   ~ 0
+Text Notes 8600 3750 0    60   ~ 0
 Back to Back switch to block PSU capacitance from\nlegacy USB devices before negotiation
 Text Notes 10850 3350 0    118  ~ 24
 Power Bus Management
@@ -611,7 +575,7 @@ Wire Wire Line
 Wire Wire Line
 	6125 4100 5450 4100
 Wire Wire Line
-	11900 4100 14600 4100
+	11825 4100 14600 4100
 Wire Wire Line
 	13750 4225 13750 4100
 Connection ~ 13750 4100
@@ -626,8 +590,8 @@ Wire Wire Line
 	14150 3950 14150 4100
 Connection ~ 14150 4100
 Wire Wire Line
-	12525 4225 12525 4100
-Connection ~ 12525 4100
+	12575 4225 12575 4100
+Connection ~ 12575 4100
 Wire Wire Line
 	5725 4200 5450 4200
 Wire Wire Line
@@ -690,7 +654,7 @@ Wire Wire Line
 	3050 4800 3050 5400
 Connection ~ 2100 5400
 Wire Wire Line
-	12525 4525 12525 5050
+	12575 4525 12575 5050
 Wire Wire Line
 	10450 4600 10450 4400
 Wire Wire Line
@@ -719,20 +683,15 @@ Wire Wire Line
 Wire Wire Line
 	5750 4800 5450 4800
 Wire Wire Line
-	11375 4100 11375 4600
+	11375 4100 11375 4350
 Connection ~ 11375 4100
 Wire Wire Line
-	11650 4475 11375 4475
-Connection ~ 11375 4475
+	11975 4400 11975 4100
+Connection ~ 11975 4100
 Wire Wire Line
-	11850 4475 12200 4475
+	10700 4100 11525 4100
 Wire Wire Line
-	12200 4475 12200 4100
-Connection ~ 12200 4100
-Wire Wire Line
-	10700 4100 11600 4100
-Wire Wire Line
-	11375 5050 11375 4900
+	11375 4650 11375 5050
 Wire Wire Line
 	3475 5200 3650 5200
 Wire Wire Line
@@ -795,19 +754,19 @@ NC pins to gnd according to pinout table,\nexample schematic shows NC
 $Comp
 L 10R_1005M R22
 U 1 1 5905C9EA
-P 11375 4600
-F 0 "R22" H 11448 4485 50  0000 L CNN
-F 1 "10R_1005M" H 11448 4405 35  0000 L CNN
-F 2 "Applidyne_Resistor:RESC1005X40L" V 11485 4450 20  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2111203.pdf" V 11510 4450 20  0001 C CNN
-F 4 "VISHAY" V 11560 4450 20  0001 C CNN "manf"
-F 5 "CRCW040210R0FKED" V 11585 4450 20  0001 C CNN "manf#"
-F 6 "Element14" V 11610 4450 20  0001 C CNN "Supplier"
-F 7 "1652742" V 11635 4450 20  0001 C CNN "Supplier Part No"
-F 8 "http://au.element14.com/vishay/crcw040210r0fked/res-thick-film-10r-1-0-063w-0402/dp/1652742" V 11660 4450 20  0001 C CNN "Supplier URL"
-F 9 "0.009" V 11685 4450 20  0001 C CNN "Supplier Price"
-F 10 "10" V 11710 4450 20  0001 C CNN "Supplier Price Break"
-	1    11375 4600
+P 11375 4350
+F 0 "R22" H 11448 4235 50  0000 L CNN
+F 1 "10R_1005M" H 11448 4155 35  0000 L CNN
+F 2 "Applidyne_Resistor:RESC1005X40L" V 11485 4200 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2111203.pdf" V 11510 4200 20  0001 C CNN
+F 4 "VISHAY" V 11560 4200 20  0001 C CNN "manf"
+F 5 "CRCW040210R0FKED" V 11585 4200 20  0001 C CNN "manf#"
+F 6 "Element14" V 11610 4200 20  0001 C CNN "Supplier"
+F 7 "1652742" V 11635 4200 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/vishay/crcw040210r0fked/res-thick-film-10r-1-0-063w-0402/dp/1652742" V 11660 4200 20  0001 C CNN "Supplier URL"
+F 9 "0.009" V 11685 4200 20  0001 C CNN "Supplier Price"
+F 10 "10" V 11710 4200 20  0001 C CNN "Supplier Price Break"
+	1    11375 4350
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3650 5900
@@ -2809,4 +2768,45 @@ Text GLabel 5750 5100 2    60   Input ~ 0
 G5V
 Wire Wire Line
 	5750 5100 5450 5100
+$Comp
+L 330NF_X5R_1005M C20
+U 1 1 590749C0
+P 2600 3700
+F 0 "C20" V 2407 3600 50  0000 C CNN
+F 1 "330NF_X5R_1005M" V 2487 3600 35  0000 C CNN
+F 2 "Applidyne_Capacitor:CAPC1005X60L" V 2715 3600 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1913358.pdf" V 2740 3600 20  0001 C CNN
+F 4 "TDK" V 2790 3600 20  0001 C CNN "manf"
+F 5 "C1005X5R1E334K050BB" V 2815 3600 20  0001 C CNN "manf#"
+F 6 "Element14" V 2840 3600 20  0001 C CNN "Supplier"
+F 7 "2525028" V 2865 3600 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/tdk/c1005x5r1e334k050bb/capacitor-mlcc-x5r-0-33uf-25v/dp/2525028" V 2890 3600 20  0001 C CNN "Supplier URL"
+F 9 "0.037" V 2915 3600 20  0001 C CNN "Supplier Price"
+F 10 "10" V 2940 3600 20  0001 C CNN "Supplier Price Break"
+	1    2600 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L 330NF_X5R_1005M C25
+U 1 1 59076CBB
+P 11975 4600
+F 0 "C25" H 11897 4465 50  0000 R CNN
+F 1 "330NF_X5R_1005M" H 11897 4545 35  0000 R CNN
+F 2 "Applidyne_Capacitor:CAPC1005X60L" V 12090 4500 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1913358.pdf" V 12115 4500 20  0001 C CNN
+F 4 "TDK" V 12165 4500 20  0001 C CNN "manf"
+F 5 "C1005X5R1E334K050BB" V 12190 4500 20  0001 C CNN "manf#"
+F 6 "Element14" V 12215 4500 20  0001 C CNN "Supplier"
+F 7 "2525028" V 12240 4500 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/tdk/c1005x5r1e334k050bb/capacitor-mlcc-x5r-0-33uf-25v/dp/2525028" V 12265 4500 20  0001 C CNN "Supplier URL"
+F 9 "0.037" V 12290 4500 20  0001 C CNN "Supplier Price"
+F 10 "10" V 12315 4500 20  0001 C CNN "Supplier Price Break"
+	1    11975 4600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11975 4600 11975 4800
+Wire Wire Line
+	11975 4800 11375 4800
+Connection ~ 11375 4800
 $EndSCHEMATC
