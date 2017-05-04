@@ -78,5 +78,5 @@ $EndSheet
 Text Notes 6325 1625 0    197  ~ 39
 USB 3.1 Type C DC Charger
 Text Notes 6525 2900 0    60   ~ 0
-Takes 8-30V DC input commonly found in cars, caravans, portable power sources\nand RC style lipos, and allows charging of USB PD 2.0 enabled devices such as\nphones or laptops.\n\nAlso provides fallback to USB2.0 devices using a Type C plug (some phones). \nMonitors input source voltage and provides visual indication of power quality.
+Takes 8-30V DC input commonly found in cars, caravans, portable power sources\nand RC style lipos, and allows charging of USB PD 2.0 enabled devices such as\nphones or laptops.\n\nAlso provides fallback to USB2.0 devices using a Type C plug (some phones).\nRobust input protection. \nProvides visual indication of power status.
 $EndSCHEMATC

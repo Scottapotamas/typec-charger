@@ -55,14 +55,10 @@ Text Notes 10550 5050 0    60   ~ 0
 Indication LED
 Text Notes 8125 5100 0    60   ~ 0
 LED control
-Text Notes 4925 5100 0    60   ~ 0
-Input battery voltage monitoring
 Text Notes 7700 6100 0    60   ~ 0
 indicate when power is applied\n\nindicate when load is connected\n\nindicate when running 5/12/20V?
 Text Notes 10350 5750 0    60   ~ 0
 RGB common anode?
 Text Notes 9900 5900 0    60   ~ 0
 Use something like a rectangular with flat end, diffuse
-Text Notes 4800 5700 0    60   ~ 0
-If voltage below X, make led go red?
 $EndSCHEMATC
