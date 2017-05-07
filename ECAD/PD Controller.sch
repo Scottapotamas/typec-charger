@@ -2884,6 +2884,8 @@ $Comp
 L 2.54mm_3xSPST_SMD SW1
 U 1 1 59103078
 P 6000 9250
+AR Path="/59103078" Ref="SW1"  Part="1" 
+AR Path="/59043113/59103078" Ref="SW1"  Part="1" 
 F 0 "SW1" H 5950 9150 50  0000 L CNN
 F 1 "2.54mm_3xSPST_SMD" H 5650 9400 50  0000 L CNN
 F 2 "Applidyne_Switch:MCEMR-03-T" H 6000 9010 20  0001 C CNN
@@ -2900,8 +2902,10 @@ F 10 "1" H 6000 8785 20  0001 C CNN "Supplier Price Break"
 $EndComp
 $Comp
 L 2.54mm_3xSPST_SMD SW1
-U 3 1 591036E4
+U 2 1 591036E4
 P 8200 9250
+AR Path="/591036E4" Ref="SW1"  Part="3" 
+AR Path="/59043113/591036E4" Ref="SW1"  Part="2" 
 F 0 "SW1" H 8150 9150 50  0000 L CNN
 F 1 "2.54mm_3xSPST_SMD" H 7850 9400 50  0000 L CNN
 F 2 "Applidyne_Switch:MCEMR-03-T" H 8200 9010 20  0001 C CNN
@@ -2913,7 +2917,7 @@ F 7 "152400602" H 8200 8860 20  0001 C CNN "Supplier Part No"
 F 8 "http://au.element14.com/multicomp/mcemr-03-t/switch-dil-3way-spst-recessed/dp/152400602" H 8200 8835 20  0001 C CNN "Supplier URL"
 F 9 "0.76" H 8200 8810 20  0001 C CNN "Supplier Price"
 F 10 "1" H 8200 8785 20  0001 C CNN "Supplier Price Break"
-	3    8200 9250
+	2    8200 9250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -7179,8 +7183,10 @@ Text Notes 5850 3650 0    60   ~ 0
 PCTRL HIGH sets current limit to PSEL\nPCTRL LOW sets current limit to PSEL/2
 $Comp
 L 2.54mm_3xSPST_SMD SW1
-U 2 1 590F7394
+U 3 1 590F7394
 P 7050 9250
+AR Path="/590F7394" Ref="SW1"  Part="2" 
+AR Path="/59043113/590F7394" Ref="SW1"  Part="3" 
 F 0 "SW1" H 7000 9150 50  0000 L CNN
 F 1 "2.54mm_3xSPST_SMD" H 6700 9400 50  0000 L CNN
 F 2 "Applidyne_Switch:MCEMR-03-T" H 7050 9010 20  0001 C CNN
@@ -7192,7 +7198,7 @@ F 7 "152400602" H 7050 8860 20  0001 C CNN "Supplier Part No"
 F 8 "http://au.element14.com/multicomp/mcemr-03-t/switch-dil-3way-spst-recessed/dp/152400602" H 7050 8835 20  0001 C CNN "Supplier URL"
 F 9 "0.76" H 7050 8810 20  0001 C CNN "Supplier Price"
 F 10 "1" H 7050 8785 20  0001 C CNN "Supplier Price Break"
-	2    7050 9250
+	3    7050 9250
 	0    1    1    0   
 $EndComp
 $Comp
