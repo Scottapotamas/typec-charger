@@ -53,11 +53,38 @@ Ideally this solution costs less than $100AU (not including charge cable or batt
 	
 # Testing and Implementation Notes
 
-- Dell XPS didn't like negotiation stage where eval board sat at 12V for a few seconds. Disabling 12V and going from 5->20V works fine.
-- Dell XPS will charge on lower currents as long as the charger is advertising at least 60W.
 - Wide input power supply low voltage cutoff set at just under 9V. This is the low battery protection, not using anything smarter.
 - Avoid additional 5V or 3V3 regulator if possible.
-- Input protection circuit is beefy but probably worth it given user's ability to screw things up and value of device being charged. Confidence in the charger is important, especially with all the press going on with USBC non-compliant chargers.
+- Input protection circuit is beefy. Confidence in the charger is important, especially with all the press going on with USBC non-compliant chargers.
 - Battery indication led is really hard to get worked out. Ideally want a RGB or similar to drive each of the outputs with some discrete logic, but can't find any RGB 3mm flat top diffuse LEDS. Square is an option but enclosure design would be painful.
-- Board is very small. Power dissipation for power supply stage is worst case 1.7W between all parts. Worst part is switching fet at 650mW. Consider heatsink or thermal transfer to case.
+- Board can be made very small, investigate small enclosure options. 
+- Power dissipation for power supply stage is worst case 1.7W between all parts. Worst part is switching fet at 650mW. Consider heatsink or thermal transfer to case?
+- Validate thermal performance with thermal camera.
 - XT60 connector is too high for normal mounting. Consider using a second PCB to drop the height to the center of the extrusion.
+
+# Sale Notes
+
+Sell it as a standalone device with the option of adding the following:
+
+- Barrel to XT60 connector
+- Barrel to Aligator clips
+- Barrel to cigarette lighter
+- Barrel to D-Tap
+- Barrel to ring terminals?
+
+Device should also include some packaging and a card describing the specifications etc.
+
+# Device Compatibility
+
+- Dell XPS didn't like negotiation stage where eval board sat at 12V for a few seconds. Disabling 12V and going from 5->20V works fine.
+- Investigate XPS when the 5V and 20V are done by same regulator instead of two-stage.
+- Dell XPS will charge on lower currents as long as the charger is advertising at least 60W.
+- Haven't been able to get more than 61W draw from the XPS, regardless of BIOS settings.
+
+- Nintendo Switch uses the 15V standard which the main model of this charger is not designed for.
+- The Switch will charge with 5V 3A though.
+- People in https://www.reddit.com/r/NintendoSwitch/comments/5x948s/answering_your_questions_about_usb_typec/ say that the Switch uses 12V as fallback.
+
+- Supports BC1.2 charging for legacy USB2 devices at up to 2A.
+- Charges phones fine at 10W over a USBC-MicroB cable.
+- Should support most phones properly with 5V 3A charging over TypeC.
