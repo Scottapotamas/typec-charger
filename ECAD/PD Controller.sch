@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:TypeC-DC-Charger-rescue
 LIBS:appli_analog_devices
 LIBS:appli_atmel
 LIBS:appli_battery
@@ -2881,7 +2882,7 @@ F 3 "" H 6000 9850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2.54mm_3xSPST_SMD SW1
+L 2.54mm_3xSPST_SMD-RESCUE-TypeC-DC-Charger SW1
 U 1 1 59103078
 P 6000 9250
 AR Path="/59103078" Ref="SW1"  Part="1" 
@@ -2901,7 +2902,7 @@ F 10 "1" H 6000 8785 20  0001 C CNN "Supplier Price Break"
 	0    1    1    0   
 $EndComp
 $Comp
-L 2.54mm_3xSPST_SMD SW1
+L 2.54mm_3xSPST_SMD-RESCUE-TypeC-DC-Charger SW1
 U 2 1 591036E4
 P 8200 9250
 AR Path="/591036E4" Ref="SW1"  Part="3" 
@@ -7182,7 +7183,7 @@ Mode Switches
 Text Notes 5850 3650 0    60   ~ 0
 PCTRL HIGH sets current limit to PSEL\nPCTRL LOW sets current limit to PSEL/2
 $Comp
-L 2.54mm_3xSPST_SMD SW1
+L 2.54mm_3xSPST_SMD-RESCUE-TypeC-DC-Charger SW1
 U 3 1 590F7394
 P 7050 9250
 AR Path="/590F7394" Ref="SW1"  Part="2" 

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:TypeC-DC-Charger-rescue
 LIBS:appli_analog_devices
 LIBS:appli_atmel
 LIBS:appli_battery
