@@ -212,24 +212,6 @@ TPS2546 provides negotiation for USB2.0 devices.\nThis allows for higher charge 
 Text Notes 10550 7150 0    118  ~ 24
 USB 2 Controller
 $Comp
-L CSD17579Q3A Q7
-U 1 1 5907E488
-P 9450 8150
-F 0 "Q7" H 9641 8196 50  0000 L CNN
-F 1 "CSD17579Q3A" H 9641 8105 50  0000 L CNN
-F 2 "Applidyne_SON:SON65P315X300X90-9T174X245L" H 9650 8050 50  0001 L CIN
-F 3 "http://www.ti.com/lit/ds/slps527a/slps527a.pdf" H 8450 6850 50  0001 L CNN
-F 4 "TI" H 9450 7650 60  0001 C CNN "manf"
-F 5 "CSD17579Q3A" H 9450 7530 60  0001 C CNN "manf#"
-F 6 "Mouser" H 9450 7430 60  0001 C CNN "Supplier"
-F 7 "http://au.mouser.com/ProductDetail/Texas-Instruments/CSD17579Q3A" H 9450 7310 60  0001 C CNN "Supplier URL"
-F 8 "595-CSD17579Q3A" H 9450 7180 60  0001 C CNN "Supplier Part No"
-F 9 "0.76" H 9450 7060 60  0001 C CNN "Supplier Price"
-F 10 "25" H 9450 6930 60  0001 C CNN "Supplier Price Break"
-	1    9450 8150
-	0    -1   -1   0   
-$EndComp
-$Comp
 L TPS2514 U3
 U 1 1 5905AB99
 P 11300 8200
@@ -855,4 +837,22 @@ F 10 "1" V 8035 5100 20  0001 C CNN "Supplier Price Break"
 $EndComp
 Text Label 3750 4850 0    60   ~ 0
 RAW_BATT
+$Comp
+L 2N7002P Q7
+U 1 1 5923FC1E
+P 9450 8150
+F 0 "Q7" V 9778 8150 50  0000 C CNN
+F 1 "2N7002P" V 9687 8150 50  0000 C CNN
+F 2 "Applidyne_SOT:SOT95P240X110-3L16N" H 9650 8050 50  0001 L CIN
+F 3 "http://docs-asia.electrocomponents.com/webdocs/1385/0900766b813856ab.pdf" H 7820 7880 50  0001 L CNN
+F 4 "Fairchild" H 9450 7650 60  0001 C CNN "manf"
+F 5 " 2N7002,215" H 9450 7530 60  0001 C CNN "manf#"
+F 6 "RS Online" H 9450 7430 60  0001 C CNN "Supplier"
+F 7 "http://au.rs-online.com/web/p/mosfet-transistors/4367379/" H 9450 7310 60  0001 C CNN "Supplier URL"
+F 8 " 436-7379" H 9450 7180 60  0001 C CNN "Supplier Part No"
+F 9 "0.232" H 9450 7060 60  0001 C CNN "Supplier Price"
+F 10 "25" H 9450 6930 60  0001 C CNN "Supplier Price Break"
+	1    9450 8150
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
