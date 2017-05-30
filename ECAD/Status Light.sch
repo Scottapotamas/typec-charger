@@ -194,4 +194,10 @@ F 10 "5" H 8150 6360 60  0001 C CNN "Supplier Price Break"
 	2    8150 7350
 	1    0    0    -1  
 $EndComp
+Text Notes 9600 6650 0    60   ~ 0
+Vfd = 2.05
+Text Notes 9650 5950 0    60   ~ 0
+Vfd = 3.0
+Text Notes 9650 7400 0    60   ~ 0
+Vfd = 3.2
 $EndSCHEMATC
