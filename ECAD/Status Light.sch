@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:TypeC-DC-Charger-rescue
 LIBS:appli_analog_devices
 LIBS:appli_atmel
 LIBS:appli_battery
@@ -14,6 +15,7 @@ LIBS:appli_fuse
 LIBS:appli_inductor
 LIBS:appli_linear
 LIBS:appli_link
+LIBS:appli_logic_devices
 LIBS:appli_logo
 LIBS:appli_memory
 LIBS:appli_mount
@@ -35,6 +37,7 @@ LIBS:appli_ublox
 LIBS:appli_uC
 LIBS:appli_usb
 LIBS:appli_wireless
+LIBS:TypeC-DC-Charger-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -55,24 +58,6 @@ Text Notes 3250 4850 0    60   ~ 0
 LED control todo
 Text Notes 3000 5600 0    60   ~ 0
 indicate when power is applied\n\nindicate when load is connected\n\nindicate when running 5/12/20V?
-$Comp
-L 1K00_1608M R35
-U 1 1 590FA9CA
-P 7650 5950
-F 0 "R35" V 7462 5800 50  0000 C CNN
-F 1 "1K00_1608M" V 7542 5800 35  0000 C CNN
-F 2 "Applidyne_Resistor:RESC1608X50N" V 7760 5800 20  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1723233.pdf" V 7785 5800 20  0001 C CNN
-F 4 "MULTICOMP" V 7835 5800 20  0001 C CNN "manf"
-F 5 "MCHP03W8F1001T5E" V 7860 5800 20  0001 C CNN "manf#"
-F 6 "Element14" V 7885 5800 20  0001 C CNN "Supplier"
-F 7 "1576283" V 7910 5800 20  0001 C CNN "Supplier Part No"
-F 8 "http://au.element14.com/multicomp/mchp03w8f1001t5e/resistor-thick-film-1k-0-125w/dp/1576283" V 7935 5800 20  0001 C CNN "Supplier URL"
-F 9 "0.011" V 7960 5800 20  0001 C CNN "Supplier Price"
-F 10 "50+" V 7985 5800 20  0001 C CNN "Supplier Price Break"
-	1    7650 5950
-	0    1    1    0   
-$EndComp
 Text GLabel 6950 5950 0    60   Input ~ 0
 CTRL2
 Wire Wire Line
@@ -83,24 +68,6 @@ Wire Wire Line
 	6950 5950 7350 5950
 Wire Wire Line
 	8750 6650 8350 6650
-$Comp
-L 1K00_1608M R36
-U 1 1 59241F13
-P 7650 6650
-F 0 "R36" V 7462 6500 50  0000 C CNN
-F 1 "1K00_1608M" V 7542 6500 35  0000 C CNN
-F 2 "Applidyne_Resistor:RESC1608X50N" V 7760 6500 20  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1723233.pdf" V 7785 6500 20  0001 C CNN
-F 4 "MULTICOMP" V 7835 6500 20  0001 C CNN "manf"
-F 5 "MCHP03W8F1001T5E" V 7860 6500 20  0001 C CNN "manf#"
-F 6 "Element14" V 7885 6500 20  0001 C CNN "Supplier"
-F 7 "1576283" V 7910 6500 20  0001 C CNN "Supplier Part No"
-F 8 "http://au.element14.com/multicomp/mchp03w8f1001t5e/resistor-thick-film-1k-0-125w/dp/1576283" V 7935 6500 20  0001 C CNN "Supplier URL"
-F 9 "0.011" V 7960 6500 20  0001 C CNN "Supplier Price"
-F 10 "50+" V 7985 6500 20  0001 C CNN "Supplier Price Break"
-	1    7650 6650
-	0    1    1    0   
-$EndComp
 Text GLabel 6950 6650 0    60   Input ~ 0
 CTRL1
 Wire Wire Line
@@ -117,26 +84,6 @@ Text GLabel 8750 5950 2    60   Input ~ 0
 VARIABLE_DC
 Text GLabel 8750 6650 2    60   Input ~ 0
 VARIABLE_DC
-Text GLabel 8750 7350 2    60   Input ~ 0
-VARIABLE_DC
-$Comp
-L 1K00_1608M R37
-U 1 1 59246A6D
-P 7700 7350
-F 0 "R37" V 7512 7200 50  0000 C CNN
-F 1 "1K00_1608M" V 7592 7200 35  0000 C CNN
-F 2 "Applidyne_Resistor:RESC1608X50N" V 7810 7200 20  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1723233.pdf" V 7835 7200 20  0001 C CNN
-F 4 "MULTICOMP" V 7885 7200 20  0001 C CNN "manf"
-F 5 "MCHP03W8F1001T5E" V 7910 7200 20  0001 C CNN "manf#"
-F 6 "Element14" V 7935 7200 20  0001 C CNN "Supplier"
-F 7 "1576283" V 7960 7200 20  0001 C CNN "Supplier Part No"
-F 8 "http://au.element14.com/multicomp/mchp03w8f1001t5e/resistor-thick-film-1k-0-125w/dp/1576283" V 7985 7200 20  0001 C CNN "Supplier URL"
-F 9 "0.011" V 8010 7200 20  0001 C CNN "Supplier Price"
-F 10 "50+" V 8035 7200 20  0001 C CNN "Supplier Price Break"
-	1    7700 7350
-	0    1    1    0   
-$EndComp
 $Comp
 L LED_RGB_PLCC6 D11
 U 1 1 59248380
@@ -197,4 +144,81 @@ Text Notes 9650 5950 0    60   ~ 0
 Vfd = 3.0
 Text Notes 9650 7400 0    60   ~ 0
 Vfd = 3.2
+Wire Wire Line
+	8350 7350 8750 7350
+Wire Wire Line
+	7650 7350 7950 7350
+Wire Wire Line
+	7350 7350 6950 7350
+$Comp
+L GND #PWR047
+U 1 1 592EEEBB
+P 6950 7350
+F 0 "#PWR047" H 6950 7100 50  0001 C CNN
+F 1 "GND" V 6955 7222 50  0000 R CNN
+F 2 "" H 6950 7350 60  0000 C CNN
+F 3 "" H 6950 7350 60  0000 C CNN
+	1    6950 7350
+	0    1    1    0   
+$EndComp
+Text Notes 6950 7800 0    60   ~ 0
+'borrow' 5V from the BC1.2 switched supply
+$Comp
+L 330R_1608M R37
+U 1 1 592EF22E
+P 7650 7350
+F 0 "R37" V 7462 7200 50  0000 C CNN
+F 1 "330R_1608M" V 7542 7200 35  0000 C CNN
+F 2 "Applidyne_Resistor:RESC1608X50L" V 7760 7200 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1723233.pdf" V 7785 7200 20  0001 C CNN
+F 4 "VISHAY DRALORIC" V 7835 7200 20  0001 C CNN "manf"
+F 5 "CRCW0603330RFKEA" V 7860 7200 20  0001 C CNN "manf#"
+F 6 "Element14" V 7885 7200 20  0001 C CNN "Supplier"
+F 7 "1469803" V 7910 7200 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/vishay-draloric/crcw0603330rfkea/resistor-330r-0-1w-1-0603-smd/dp/1469803" V 7935 7200 20  0001 C CNN "Supplier URL"
+F 9 "0.004" V 7960 7200 20  0001 C CNN "Supplier Price"
+F 10 "1" V 7985 7200 20  0001 C CNN "Supplier Price Break"
+	1    7650 7350
+	0    1    1    0   
+$EndComp
+Text Notes 5750 7400 0    60   ~ 0
+5V supply active
+$Comp
+L 1K50_1608M R35
+U 1 1 592F001B
+P 7650 5950
+F 0 "R35" V 7462 5800 50  0000 C CNN
+F 1 "1K50_1608M" V 7542 5800 35  0000 C CNN
+F 2 "Applidyne_Resistor:RESC1608X50L" V 7760 5800 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716711.pdf" V 7785 5800 20  0001 C CNN
+F 4 "MULTICOMP" V 7835 5800 20  0001 C CNN "manf"
+F 5 "MCSR06X1501FTL" V 7860 5800 20  0001 C CNN "manf#"
+F 6 "Element14" V 7885 5800 20  0001 C CNN "Supplier"
+F 7 "2074192" V 7910 5800 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/multicomp/mcsr06x1501ftl/resistor-0603-1k5-1-anti-sulfur/dp/2074192" V 7935 5800 20  0001 C CNN "Supplier URL"
+F 9 "0.006" V 7960 5800 20  0001 C CNN "Supplier Price"
+F 10 "1" V 7985 5800 20  0001 C CNN "Supplier Price Break"
+	1    7650 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L 2K40_1608M R36
+U 1 1 592F03DA
+P 7650 6650
+F 0 "R36" V 7462 6500 50  0000 C CNN
+F 1 "2K40_1608M" V 7542 6500 35  0000 C CNN
+F 2 "Applidyne_Resistor:RESC1608X50L" V 7760 6500 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1788326.pdf" V 7785 6500 20  0001 C CNN
+F 4 "MULTICOMP" V 7835 6500 20  0001 C CNN "manf"
+F 5 "MC0063W060312K4" V 7860 6500 20  0001 C CNN "manf#"
+F 6 "Element14" V 7885 6500 20  0001 C CNN "Supplier"
+F 7 "9330879" V 7910 6500 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/multicomp/mc0063w060312k4/resistor-2k4-0-063w-1-0603/dp/9330879" V 7935 6500 20  0001 C CNN "Supplier URL"
+F 9 "0.0011" V 7960 6500 20  0001 C CNN "Supplier Price"
+F 10 "1" V 7985 6500 20  0001 C CNN "Supplier Price Break"
+	1    7650 6650
+	0    1    1    0   
+$EndComp
+Text GLabel 8750 7350 2    60   Input ~ 0
+5V
 $EndSCHEMATC

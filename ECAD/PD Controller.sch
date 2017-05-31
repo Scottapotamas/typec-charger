@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:TypeC-DC-Charger-rescue
 LIBS:appli_analog_devices
 LIBS:appli_atmel
 LIBS:appli_battery
@@ -14,6 +15,7 @@ LIBS:appli_fuse
 LIBS:appli_inductor
 LIBS:appli_linear
 LIBS:appli_link
+LIBS:appli_logic_devices
 LIBS:appli_logo
 LIBS:appli_memory
 LIBS:appli_mount
@@ -35,6 +37,7 @@ LIBS:appli_ublox
 LIBS:appli_uC
 LIBS:appli_usb
 LIBS:appli_wireless
+LIBS:TypeC-DC-Charger-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -7161,6 +7164,8 @@ $Comp
 L 2.54mm_3xSPST_SMD SW1
 U 1 1 592E7066
 P 6000 9250
+AR Path="/592E7066" Ref="SW1"  Part="1" 
+AR Path="/59043113/592E7066" Ref="SW1"  Part="1" 
 F 0 "SW1" V 5979 9355 50  0000 L CNN
 F 1 "2.54mm_3xSPST_SMD" V 6070 9355 50  0000 L CNN
 F 2 "Applidyne_Switch:MCEMR-03-T" H 6000 9010 20  0001 C CNN
@@ -7179,6 +7184,8 @@ $Comp
 L 2.54mm_3xSPST_SMD SW1
 U 2 1 592E710E
 P 8200 9250
+AR Path="/592E710E" Ref="SW1"  Part="2" 
+AR Path="/59043113/592E710E" Ref="SW1"  Part="2" 
 F 0 "SW1" V 8179 9355 50  0000 L CNN
 F 1 "2.54mm_3xSPST_SMD" V 8270 9355 50  0000 L CNN
 F 2 "Applidyne_Switch:MCEMR-03-T" H 8200 9010 20  0001 C CNN
@@ -7197,6 +7204,8 @@ $Comp
 L 2.54mm_3xSPST_SMD SW1
 U 3 1 592E71C5
 P 7050 9250
+AR Path="/592E71C5" Ref="SW1"  Part="3" 
+AR Path="/59043113/592E71C5" Ref="SW1"  Part="3" 
 F 0 "SW1" V 7029 9355 50  0000 L CNN
 F 1 "2.54mm_3xSPST_SMD" V 7120 9355 50  0000 L CNN
 F 2 "Applidyne_Switch:MCEMR-03-T" H 7050 9010 20  0001 C CNN

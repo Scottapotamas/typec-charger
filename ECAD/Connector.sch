@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:TypeC-DC-Charger-rescue
 LIBS:appli_analog_devices
 LIBS:appli_atmel
 LIBS:appli_battery
@@ -14,6 +15,7 @@ LIBS:appli_fuse
 LIBS:appli_inductor
 LIBS:appli_linear
 LIBS:appli_link
+LIBS:appli_logic_devices
 LIBS:appli_logo
 LIBS:appli_memory
 LIBS:appli_mount
@@ -35,6 +37,7 @@ LIBS:appli_ublox
 LIBS:appli_uC
 LIBS:appli_usb
 LIBS:appli_wireless
+LIBS:TypeC-DC-Charger-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -370,8 +373,6 @@ Wire Wire Line
 	9200 8500 9500 8500
 Wire Wire Line
 	9500 8500 9500 8350
-Text Label 9950 8050 0    60   ~ 0
-5V
 Text Notes 3750 6500 0    60   ~ 0
 Over Voltage Protection
 $Comp
@@ -852,4 +853,9 @@ F 10 "25" H 9450 6930 60  0001 C CNN "Supplier Price Break"
 	1    9450 8150
 	0    -1   -1   0   
 $EndComp
+Text GLabel 10100 7950 1    60   Input ~ 0
+5V
+Wire Wire Line
+	10100 7950 10100 8050
+Connection ~ 10100 8050
 $EndSCHEMATC
