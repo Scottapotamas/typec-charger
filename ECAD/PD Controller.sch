@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:TypeC-DC-Charger-rescue
 LIBS:appli_analog_devices
 LIBS:appli_atmel
 LIBS:appli_battery
@@ -15,7 +14,6 @@ LIBS:appli_fuse
 LIBS:appli_inductor
 LIBS:appli_linear
 LIBS:appli_link
-LIBS:appli_logic_devices
 LIBS:appli_logo
 LIBS:appli_memory
 LIBS:appli_mount
@@ -37,7 +35,6 @@ LIBS:appli_ublox
 LIBS:appli_uC
 LIBS:appli_usb
 LIBS:appli_wireless
-LIBS:TypeC-DC-Charger-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -2848,7 +2845,7 @@ Wire Wire Line
 	7750 8800 8200 8800
 Text Label 7900 9850 0    60   ~ 0
 DVDD
-Text Notes 8500 9300 0    60   ~ 0
+Text Notes 8500 9100 0    60   ~ 0
 93W
 Text Notes 8500 8600 0    60   ~ 0
 65W
@@ -2881,46 +2878,6 @@ F 3 "" H 6000 9850 60  0000 C CNN
 	1    6000 9850
 	1    0    0    -1  
 $EndComp
-$Comp
-L 2.54mm_3xSPST_SMD-RESCUE-TypeC-DC-Charger SW1
-U 1 1 59103078
-P 6000 9250
-AR Path="/59103078" Ref="SW1"  Part="1" 
-AR Path="/59043113/59103078" Ref="SW1"  Part="1" 
-F 0 "SW1" H 5950 9150 50  0000 L CNN
-F 1 "2.54mm_3xSPST_SMD" H 5650 9400 50  0000 L CNN
-F 2 "Applidyne_Switch:MCEMR-03-T" H 6000 9010 20  0001 C CNN
-F 3 "http://www.farnell.com/cad/1520836.pdf" H 6000 8985 20  0001 C CNN
-F 4 "MULTICOMP" H 6000 8935 20  0001 C CNN "manf"
-F 5 "MCEMR-03-T" H 6000 8910 20  0001 C CNN "manf#"
-F 6 "Element 14" H 6000 8885 20  0001 C CNN "Supplier"
-F 7 "152400602" H 6000 8860 20  0001 C CNN "Supplier Part No"
-F 8 "http://au.element14.com/multicomp/mcemr-03-t/switch-dil-3way-spst-recessed/dp/152400602" H 6000 8835 20  0001 C CNN "Supplier URL"
-F 9 "0.76" H 6000 8810 20  0001 C CNN "Supplier Price"
-F 10 "1" H 6000 8785 20  0001 C CNN "Supplier Price Break"
-	1    6000 9250
-	0    1    1    0   
-$EndComp
-$Comp
-L 2.54mm_3xSPST_SMD-RESCUE-TypeC-DC-Charger SW1
-U 2 1 591036E4
-P 8200 9250
-AR Path="/591036E4" Ref="SW1"  Part="3" 
-AR Path="/59043113/591036E4" Ref="SW1"  Part="2" 
-F 0 "SW1" H 8150 9150 50  0000 L CNN
-F 1 "2.54mm_3xSPST_SMD" H 7850 9400 50  0000 L CNN
-F 2 "Applidyne_Switch:MCEMR-03-T" H 8200 9010 20  0001 C CNN
-F 3 "http://www.farnell.com/cad/1520836.pdf" H 8200 8985 20  0001 C CNN
-F 4 "MULTICOMP" H 8200 8935 20  0001 C CNN "manf"
-F 5 "MCEMR-03-T" H 8200 8910 20  0001 C CNN "manf#"
-F 6 "Element 14" H 8200 8885 20  0001 C CNN "Supplier"
-F 7 "152400602" H 8200 8860 20  0001 C CNN "Supplier Part No"
-F 8 "http://au.element14.com/multicomp/mcemr-03-t/switch-dil-3way-spst-recessed/dp/152400602" H 8200 8835 20  0001 C CNN "Supplier URL"
-F 9 "0.76" H 8200 8810 20  0001 C CNN "Supplier Price"
-F 10 "1" H 8200 8785 20  0001 C CNN "Supplier Price Break"
-	2    8200 9250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6000 9700 6000 9850
 Wire Wire Line
@@ -2946,7 +2903,7 @@ Wire Wire Line
 	8200 8300 8050 8300
 Text Notes 6250 8600 0    60   ~ 0
 3A
-Text Notes 6250 9300 0    60   ~ 0
+Text Notes 6200 9125 0    60   ~ 0
 5A
 $Comp
 L 220K_1005M R32
@@ -2968,7 +2925,7 @@ F 10 "10" V 6335 8250 20  0001 C CNN "Supplier Price Break"
 $EndComp
 Text Notes 7300 8600 0    60   ~ 0
 5/12/20
-Text Notes 7300 9300 0    60   ~ 0
+Text Notes 7275 9125 0    60   ~ 0
 5/20
 Text Notes 5500 8100 0    60   ~ 0
 Control current \nlimit
@@ -7183,26 +7140,6 @@ Mode Switches
 Text Notes 5850 3650 0    60   ~ 0
 PCTRL HIGH sets current limit to PSEL\nPCTRL LOW sets current limit to PSEL/2
 $Comp
-L 2.54mm_3xSPST_SMD-RESCUE-TypeC-DC-Charger SW1
-U 3 1 590F7394
-P 7050 9250
-AR Path="/590F7394" Ref="SW1"  Part="2" 
-AR Path="/59043113/590F7394" Ref="SW1"  Part="3" 
-F 0 "SW1" H 7000 9150 50  0000 L CNN
-F 1 "2.54mm_3xSPST_SMD" H 6700 9400 50  0000 L CNN
-F 2 "Applidyne_Switch:MCEMR-03-T" H 7050 9010 20  0001 C CNN
-F 3 "http://www.farnell.com/cad/1520836.pdf" H 7050 8985 20  0001 C CNN
-F 4 "MULTICOMP" H 7050 8935 20  0001 C CNN "manf"
-F 5 "MCEMR-03-T" H 7050 8910 20  0001 C CNN "manf#"
-F 6 "Element 14" H 7050 8885 20  0001 C CNN "Supplier"
-F 7 "152400602" H 7050 8860 20  0001 C CNN "Supplier Part No"
-F 8 "http://au.element14.com/multicomp/mcemr-03-t/switch-dil-3way-spst-recessed/dp/152400602" H 7050 8835 20  0001 C CNN "Supplier URL"
-F 9 "0.76" H 7050 8810 20  0001 C CNN "Supplier Price"
-F 10 "1" H 7050 8785 20  0001 C CNN "Supplier Price Break"
-	3    7050 9250
-	0    1    1    0   
-$EndComp
-$Comp
 L 6.8UF_X7R_3216M C26
 U 1 1 590F97AB
 P 13050 4225
@@ -7219,5 +7156,59 @@ F 9 "0.4" V 13365 4125 20  0001 C CNN "Supplier Price"
 F 10 "5" V 13390 4125 20  0001 C CNN "Supplier Price Break"
 	1    13050 4225
 	1    0    0    -1  
+$EndComp
+$Comp
+L 2.54mm_3xSPST_SMD SW1
+U 1 1 592E7066
+P 6000 9250
+F 0 "SW1" V 5979 9355 50  0000 L CNN
+F 1 "2.54mm_3xSPST_SMD" V 6070 9355 50  0000 L CNN
+F 2 "Applidyne_Switch:MCEMR-03-T" H 6000 9010 20  0001 C CNN
+F 3 "http://www.farnell.com/cad/1520836.pdf" H 6000 8985 20  0001 C CNN
+F 4 "MULTICOMP" H 6000 8935 20  0001 C CNN "manf"
+F 5 "MCEMR-03-T" H 6000 8910 20  0001 C CNN "manf#"
+F 6 "Element 14" H 6000 8885 20  0001 C CNN "Supplier"
+F 7 "152400602" H 6000 8860 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/multicomp/mcemr-03-t/switch-dil-3way-spst-recessed/dp/152400602" H 6000 8835 20  0001 C CNN "Supplier URL"
+F 9 "0.76" H 6000 8810 20  0001 C CNN "Supplier Price"
+F 10 "1" H 6000 8785 20  0001 C CNN "Supplier Price Break"
+	1    6000 9250
+	0    1    1    0   
+$EndComp
+$Comp
+L 2.54mm_3xSPST_SMD SW1
+U 2 1 592E710E
+P 8200 9250
+F 0 "SW1" V 8179 9355 50  0000 L CNN
+F 1 "2.54mm_3xSPST_SMD" V 8270 9355 50  0000 L CNN
+F 2 "Applidyne_Switch:MCEMR-03-T" H 8200 9010 20  0001 C CNN
+F 3 "http://www.farnell.com/cad/1520836.pdf" H 8200 8985 20  0001 C CNN
+F 4 "MULTICOMP" H 8200 8935 20  0001 C CNN "manf"
+F 5 "MCEMR-03-T" H 8200 8910 20  0001 C CNN "manf#"
+F 6 "Element 14" H 8200 8885 20  0001 C CNN "Supplier"
+F 7 "152400602" H 8200 8860 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/multicomp/mcemr-03-t/switch-dil-3way-spst-recessed/dp/152400602" H 8200 8835 20  0001 C CNN "Supplier URL"
+F 9 "0.76" H 8200 8810 20  0001 C CNN "Supplier Price"
+F 10 "1" H 8200 8785 20  0001 C CNN "Supplier Price Break"
+	2    8200 9250
+	0    1    1    0   
+$EndComp
+$Comp
+L 2.54mm_3xSPST_SMD SW1
+U 3 1 592E71C5
+P 7050 9250
+F 0 "SW1" V 7029 9355 50  0000 L CNN
+F 1 "2.54mm_3xSPST_SMD" V 7120 9355 50  0000 L CNN
+F 2 "Applidyne_Switch:MCEMR-03-T" H 7050 9010 20  0001 C CNN
+F 3 "http://www.farnell.com/cad/1520836.pdf" H 7050 8985 20  0001 C CNN
+F 4 "MULTICOMP" H 7050 8935 20  0001 C CNN "manf"
+F 5 "MCEMR-03-T" H 7050 8910 20  0001 C CNN "manf#"
+F 6 "Element 14" H 7050 8885 20  0001 C CNN "Supplier"
+F 7 "152400602" H 7050 8860 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/multicomp/mcemr-03-t/switch-dil-3way-spst-recessed/dp/152400602" H 7050 8835 20  0001 C CNN "Supplier URL"
+F 9 "0.76" H 7050 8810 20  0001 C CNN "Supplier Price"
+F 10 "1" H 7050 8785 20  0001 C CNN "Supplier Price Break"
+	3    7050 9250
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

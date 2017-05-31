@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:TypeC-DC-Charger-rescue
 LIBS:appli_analog_devices
 LIBS:appli_atmel
 LIBS:appli_battery
@@ -15,7 +14,6 @@ LIBS:appli_fuse
 LIBS:appli_inductor
 LIBS:appli_linear
 LIBS:appli_link
-LIBS:appli_logic_devices
 LIBS:appli_logo
 LIBS:appli_memory
 LIBS:appli_mount
@@ -37,7 +35,6 @@ LIBS:appli_ublox
 LIBS:appli_uC
 LIBS:appli_usb
 LIBS:appli_wireless
-LIBS:TypeC-DC-Charger-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
