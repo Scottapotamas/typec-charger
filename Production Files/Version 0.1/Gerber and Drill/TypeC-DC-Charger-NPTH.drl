@@ -1,0 +1,17 @@
+M48
+;DRILL file {KiCad (2016-11-21 revision f7cc0a9)-makepkg} date 06/05/17 10:19:10
+;FORMAT={-:-/ absolute / metric / decimal}
+FMAT,2
+METRIC,TZ
+T1C0.700
+%
+G90
+G05
+M71
+T1
+X108.65Y-71.G85X110.35Y-71.
+G05
+X108.65Y-84.G85X110.35Y-84.
+G05
+T0
+M30
